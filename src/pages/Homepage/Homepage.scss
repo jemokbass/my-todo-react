@@ -1,0 +1,21 @@
+.homepage {
+  margin: 0px 0px 20vw;
+  text-align: center;
+
+  &__title {
+    font-weight: 900;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px $dark-shadow;
+    color: $gray-blue;
+    margin: 0px 0px 4vw;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 0px 1.5rem;
+  }
+
+  &__button {
+  }
+}

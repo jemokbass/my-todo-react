@@ -1,0 +1,47 @@
+.footer {
+  background: $gray;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    box-shadow: 0px -2px 10px 1px $dark-shadow;
+  }
+
+  &__inner {
+    padding: 12px 20px;
+
+    @media (min-width: 600px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 600px) {
+      padding: 10px 20px 0px;
+    }
+  }
+
+  &__copy {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $beige;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease 0s;
+
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid $brown;
+    }
+  }
+
+  &__thanks {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.37;
+    color: $beige;
+  }
+}

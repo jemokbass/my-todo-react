@@ -1,0 +1,23 @@
+.sign-in {
+  margin: 0px 0px 10%;
+  max-width: 600px;
+
+  &__back {
+    margin: 0px 0px 40px;
+
+    &:hover,
+    &:focus {
+      color: $brown;
+
+      svg {
+        fill: $brown;
+      }
+    }
+  }
+
+  &__form {
+    .button {
+      min-width: 200px;
+    }
+  }
+}
